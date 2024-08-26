@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expert Landing Page</title>
+    <!-- Site Icon -->
+    <link rel="icon" type="image/png" href="image/favicon-32x32.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="hero">
+      <!-- Ikon Toggle -->
+      <div id="sidebarToggle" class="sidebar-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <aside id="sidebar" class="sidebar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </aside>
+
+      <div class="hero-content">
+        <h1>Welcome to Our Website</h1>
+        <p>Explore our services and offerings</p>
+        <button id="learnMoreBtn" class="cta-button">Learn More</button>
+      </div>
+    </header>
+
+    <section id="home" class="content-section">
+      <h2>Our Services</h2>
+      <div class="features">
+        <div class="feature">
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <p>We build responsive and high-performance websites.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-bullhorn"></i>
+          <h3>Digital Marketing</h3>
+          <p>Grow your business with our targeted marketing strategies.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-search"></i>
+          <h3>SEO Optimization</h3>
+          <p>Improve your search engine rankings and visibility.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="testimonial-section">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonials">
+        <div class="testimonial">
+          <p>
+            "This company transformed our online presence. The best in the
+            business!"
+          </p>
+          <h4>- John Doe, CEO of Company X</h4>
+        </div>
+        <div class="testimonial">
+          <p>"Exceptional service and great results. Highly recommend them."</p>
+          <h4>- Jane Smith, Founder of Startup Y</h4>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Learn More About Us</h2>
+        <p>
+          We are a team of passionate individuals dedicated to helping
+          businesses thrive in the digital age. Our expertise spans across
+          various domains, ensuring that we can meet all your digital needs.
+        </p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
